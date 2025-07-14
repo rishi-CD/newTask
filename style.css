@@ -5,7 +5,6 @@
     --secondary: #333;
     --light: #f8f9fa;
     --dark: #212529;
-    /* --gray: #6c757d; */
     --light-gray: #e9ecef;
 }
 
@@ -28,11 +27,6 @@ body {
     padding: 0 20px;
 }
 
-/* img {
-    max-width: 100%;
-    height: auto;
-} */
-
 a {
     text-decoration: none;
     color: inherit;
@@ -48,9 +42,7 @@ h1, h2, h3, h4 {
     margin-bottom: 1rem;
 }
 
-/* p {
-    margin-bottom: 1rem;
-} */
+
 
 /* Buttons */
 .btn {
@@ -80,14 +72,12 @@ h1, h2, h3, h4 {
     background-color: rgb(14, 252, 240);
 }
 
-/* .btn-secondary:hover {
-    background-color: #fce309;
-} */
+
 
 .btn-large {
     padding: 15px 30px;
     font-size: 1.1rem;
-    /* justify-content: flex-start; */
+   
     background-color: aqua;
     color: black;
     font-weight: 800;
@@ -196,20 +186,19 @@ h1, h2, h3, h4 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    /* margin: 20rem 20rem; */
+    
 }
 
 .platform {
     background-color: rgb(185, 184, 184);
     border-radius: 8px;
-    /* padding: 20px; */
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  
     width: 5px;
     height: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* justify-content: center; */
+    
     margin: 5rem 5rem;
 
     
@@ -230,10 +219,7 @@ h1, h2, h3, h4 {
 }
 
 .newsletter {
-    /* margin-top: 50px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto; */
+   
     height: 25rem;
 }
 .why img{
@@ -293,7 +279,7 @@ h1, h2, h3, h4 {
     background: transparent;
     padding: 30px;
     border-radius: 8px;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
+    
 }
 
 .feature h3 {
@@ -330,7 +316,7 @@ h1, h2, h3, h4 {
     background-color: transparent;
     padding: 30px;
     border-radius: 8px;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
+   
     text-align: left;
 }
 
@@ -357,12 +343,6 @@ h1, h2, h3, h4 {
     gap: 15px;
 }
 
-.artist img {
-    /* width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover; */
-}
 
 .artist h4 {
     margin-bottom: 5px;
@@ -400,7 +380,7 @@ h1, h2, h3, h4 {
     background-color: transparent;
     padding: 30px;
     border-radius: 8px;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
+   
 }
 .resources img{
     height: 4rem;
